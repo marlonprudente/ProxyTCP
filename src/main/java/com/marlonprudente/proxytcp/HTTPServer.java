@@ -42,62 +42,75 @@ public class HTTPServer {
 }
 
 class Connection extends Thread {
-    InputStreamReader isr;
-    BufferedReader reader;
-    byte[] request = new byte[1024];
+
     Socket clientSocket;
+    BufferedReader brIn;
+    String urlPermitida = "portal.utfpr.edu.br";
+    int portaPermitida = 80;
+    Socket conexaoPermitida = null;
+
     public Connection(Socket aClientSocket) {
         clientSocket = aClientSocket;
+
         this.start();
     }
 
     public void run() {
-        try {			                 // an echo server
-            System.out.println("Antes da conexao");
-            Socket s = new Socket("portal.utfpr.edu.br", 80);
-            PrintWriter out = new PrintWriter(s.getOutputStream());            
-            out.println("GET / HTTP/1.1");
-            out.println("Host: portal.utfpr.edu.br");
-            out.println("");
-            out.flush();
-            OutputStream os = s.getOutputStream();
-            int bytes_read;
-                    try {
-                        while ((bytes_read = s.getInputStream().read(request)) != -1) {
-                            os.write(request, 0, bytes_read);
-                            os.flush();
+        try {
+            final byte[] request = new byte[1024];
+            byte[] reply = new byte[4096];
+
+            final InputStream inFromClient = clientSocket.getInputStream();
+            final OutputStream outToClient = clientSocket.getOutputStream();
+
+            conexaoPermitida = new Socket(urlPermitida, portaPermitida);
+            final InputStream inFromServer = conexaoPermitida.getInputStream();
+            final OutputStream outToServer = conexaoPermitida.getOutputStream();
+
+            brIn = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            String inputLine;
+            while (!(inputLine = brIn.readLine()).equals("")) {
+                if (inputLine.startsWith("Host:")) {
+                    if (true) {
+
+                        new Thread() {
+                            public void run() {
+                                int bytes_read;
+                                try {
+                                    while ((bytes_read = inFromClient.read(request)) != -1) {
+                                        outToServer.write(request, 0, bytes_read);
+                                        outToServer.flush();
+                                        //TODO CREATE YOUR LOGIC HERE
+                                    }
+                                } catch (IOException e) {
+                                }
+                                try {
+                                    outToServer.close();
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }.start();
+                        int bytes_read;
+
+                        while ((bytes_read = inFromServer.read(reply)) != -1) {
+                            outToClient.write(reply, 0, bytes_read);
+                            outToClient.flush();
                             //TODO CREATE YOUR LOGIC HERE
                         }
-                    } catch (IOException e) {
-                    }
-            //reader = new BufferedReader(new InputStreamReader(s.getInputStream()));
-            
-//            String inputLine;
-//            while (((inputLine = reader.readLine()) != null)){
-//                System.out.println("====>" + inputLine);
-//                in.println(inputLine);
-//            }
-            
-            //reader.close();
-//            out.println("HTTP/1.1 200 OK");
-//            out.println("Content-Type: text/html");
-//            out.println("\r\n");
-//            out.println("<p> Hello world </p>");
 
-//            
-//            System.out.println("Depois da conexao");
-//            if (ClientIs == null || ClientOs == null) {
-//                System.out.println("Falhou!");
-//                return;
-//            }
-//            byte[] reply = new byte[4096];
-//            int bytesRead;
-//            while (-1 != (bytesRead = ClientIs.read(reply))) {
-//                System.out.println("Enviando...");
-//                ClientOs.write(reply, 0, bytesRead);
-//            }
-        }
-         catch (EOFException e) {
+                    } else {
+                        PrintWriter out = new PrintWriter(outToClient);
+                        out.println("GET / HTTP/1.1");
+                        out.println("Não permitido!");
+                        out.println("");
+                        out.flush();
+                    }
+                }
+                System.out.println(inputLine);
+            }
+
+        } catch (EOFException e) {
             System.out.println("EOF:" + e.getMessage());
         } catch (IOException e) {
             System.out.println("readline:" + e.getMessage());

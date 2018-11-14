@@ -1,8 +1,11 @@
 import java.io.*;
 import java.net.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 /**
  *
  * @author jcgonzalez.com
+ * @author  Marlon Prudente
  *
  */
 public class ProxyMultiThread {
@@ -32,7 +35,7 @@ public class ProxyMultiThread {
  * Handles a socket connection to the proxy server from the client and uses 2
  * threads to proxy between server and client
  *
- * @author jcgonzalez.com
+ * @author Marlon Prudente
  *
  */
 class ThreadProxy extends Thread {
@@ -43,6 +46,7 @@ class ThreadProxy extends Thread {
         this.SERVER_URL = ServerUrl;
         this.SERVER_PORT = ServerPort;
         this.sClient = sClient;
+        
         this.start();
     }
     @Override
@@ -53,14 +57,32 @@ class ThreadProxy extends Thread {
             final InputStream inFromClient = sClient.getInputStream();
             final OutputStream outToClient = sClient.getOutputStream();
             Socket client = null, server = null;
+            BufferedReader brIn = new BufferedReader(new InputStreamReader(inFromClient));
+            String inputLine;
+            String host = "";
+            if((inputLine = brIn.readLine()) != null && !inputLine.equals("")) {
+                host = brIn.readLine();
+                brIn = null;
+            }
             // connects a socket to the server
             try {
                 server = new Socket(SERVER_URL, SERVER_PORT);
+                System.out.println(host);
+                if(!(host.contains("utfpr.edu.br") || host.contains("firefox.com"))){
+                    System.out.println("Erro...");
+                    throw new Exception("Site não permitido");
+               }
             } catch (IOException e) {
                 PrintWriter out = new PrintWriter(new OutputStreamWriter(
                         outToClient));
                 out.flush();
                 throw new RuntimeException(e);
+            } catch (Exception ex) {
+                PrintWriter out = new PrintWriter(outToClient);
+                out.println("GET / HTTP/1.1");
+                out.println(ex);
+                out.println("");
+                out.flush();
             }
             // a new thread to manage streams from server to client (DOWNLOAD)
             final InputStream inFromServer = server.getInputStream();
