@@ -29,7 +29,7 @@ public class HTTPServer {
 
     public static void main(String args[]) {
         try {
-            int serverPort = 8080; // the server port
+            int serverPort = 9999; // the server port
             ServerSocket listenSocket = new ServerSocket(serverPort);
             while (true) {
                 Socket clientSocket = listenSocket.accept();
@@ -51,7 +51,7 @@ class Connection extends Thread {
 
     public Connection(Socket aClientSocket) {
         clientSocket = aClientSocket;
-
+        System.out.println("Iniciando Thread");
         this.start();
     }
 
@@ -69,8 +69,8 @@ class Connection extends Thread {
 
             brIn = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             String inputLine;
-            while (!(inputLine = brIn.readLine()).equals("")) {
-                if (inputLine.startsWith("Host:")) {
+         //   while (!(inputLine = brIn.readLine()).equals("")) {
+            //    if (inputLine.startsWith("Host:")) {
                     if (true) {
 
                         new Thread() {
@@ -83,6 +83,7 @@ class Connection extends Thread {
                                         //TODO CREATE YOUR LOGIC HERE
                                     }
                                 } catch (IOException e) {
+                                    System.out.println(">" + e);
                                 }
                                 try {
                                     outToServer.close();
@@ -91,8 +92,8 @@ class Connection extends Thread {
                                 }
                             }
                         }.start();
+                        
                         int bytes_read;
-
                         while ((bytes_read = inFromServer.read(reply)) != -1) {
                             outToClient.write(reply, 0, bytes_read);
                             outToClient.flush();
@@ -106,9 +107,9 @@ class Connection extends Thread {
                         out.println("");
                         out.flush();
                     }
-                }
-                System.out.println(inputLine);
-            }
+               // }
+       //         System.out.println(inputLine);
+            //}
 
         } catch (EOFException e) {
             System.out.println("EOF:" + e.getMessage());
@@ -118,6 +119,7 @@ class Connection extends Thread {
             try {
                 clientSocket.close();
             } catch (IOException e) {/*close failed*/
+                System.out.println("Falha ao fechar socket");
             }
         }
 

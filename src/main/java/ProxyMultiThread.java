@@ -54,24 +54,28 @@ class ThreadProxy extends Thread {
         try {
             final byte[] request = new byte[1024];
             byte[] reply = new byte[4096];
+            sClient.setSoTimeout(2000);
             final InputStream inFromClient = sClient.getInputStream();
             final OutputStream outToClient = sClient.getOutputStream();
-            Socket client = null, server = null;
-            BufferedReader brIn = new BufferedReader(new InputStreamReader(inFromClient));
+            Socket client = null, server = null;            
+           BufferedReader brIn = new BufferedReader(new InputStreamReader(inFromClient));
             String inputLine;
             String host = "";
             if((inputLine = brIn.readLine()) != null && !inputLine.equals("")) {
-                host = brIn.readLine();
-                brIn = null;
+                host = brIn.readLine();                
             }
+//            brIn.close();
             // connects a socket to the server
             try {
                 server = new Socket(SERVER_URL, SERVER_PORT);
                 System.out.println(host);
-                if(!(host.contains("utfpr.edu.br") || host.contains("firefox.com"))){
-                    System.out.println("Erro...");
-                    throw new Exception("Site não permitido");
-               }
+//                if(host.contains("Host")){
+//                    if(!(host.contains("utfpr.edu.br") || host.contains("firefox.com"))){
+//                        System.out.println("Erro...");
+//                        throw new Exception("Site não permitido");
+//                   }
+//                }
+
             } catch (IOException e) {
                 PrintWriter out = new PrintWriter(new OutputStreamWriter(
                         outToClient));
