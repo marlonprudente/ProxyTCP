@@ -1,0 +1,328 @@
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34487
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34488
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34489
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34490
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34491
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34492
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34500
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34501
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34502
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34503
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34505
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34507
+nov 22, 2018 8:31:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34508
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34509
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34510
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34511
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34512
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34513
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34516
+nov 22, 2018 8:31:05 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34518
+nov 22, 2018 8:31:09 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34520
+nov 22, 2018 8:31:09 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34522
+nov 22, 2018 8:31:09 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34524
+nov 22, 2018 8:31:09 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34526
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34528
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34529
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34530
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34531
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34532
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34535
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34538
+nov 22, 2018 8:31:10 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34539
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34540
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34541
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34542
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34543
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34544
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34545
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34546
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34547
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34548
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34549
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34550
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34551
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34552
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34553
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34554
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34555
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34556
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34557
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34558
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34559
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34560
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34561
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34562
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34563
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34564
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34565
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34566
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34567
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34568
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34569
+nov 22, 2018 8:31:12 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34571
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34572
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34573
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34574
+nov 22, 2018 8:31:16 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:21 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34578
+nov 22, 2018 8:31:21 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34580
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34581
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34582
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34583
+nov 22, 2018 8:31:26 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34584
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34585
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34586
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34587
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34588
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34589
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34590
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34591
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34592
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34593
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34594
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34595
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34596
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34597
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34598
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34599
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34600
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34601
+nov 22, 2018 8:31:27 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34602
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34603
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34604
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34605
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34606
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34607
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:34608
+nov 22, 2018 8:31:28 PM com.marlonprudente.proxytcp.Connection <init>
+GRAVE: Erro ao Criar Connection: java.io.IOException: Couldn't get lock for ./logs/logThread.log, maxLocks: 100

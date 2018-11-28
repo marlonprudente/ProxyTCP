@@ -115,91 +115,9 @@ public class RequestHandler implements Runnable {
 		if(request.equals("CONNECT")){
 			System.out.println("HTTPS Request for : " + urlString + "\n");
 			handleHTTPSRequest(urlString);
-		} 
-
-		else{
-			// Check if we have a cached copy
-			File file;
-			if((file = Proxy.getCachedPage(urlString)) != null){
-				System.out.println("Cached Copy found for : " + urlString + "\n");
-				sendCachedPageToClient(file);
-			} else {
-				System.out.println("HTTP GET for : " + urlString + "\n");
-				sendNonCachedToClient(urlString);
-			}
 		}
-	} 
-
-
-	/**
-	 * Sends the specified cached file to the client
-	 * @param cachedFile The file to be sent (can be image/text)
-	 */
-	private void sendCachedPageToClient(File cachedFile){
-		// Read from File containing cached web page
-		try{
-			// If file is an image write data to client using buffered image.
-			String fileExtension = cachedFile.getName().substring(cachedFile.getName().lastIndexOf('.'));
-			
-			// Response that will be sent to the server
-			String response;
-			if((fileExtension.contains(".png")) || fileExtension.contains(".jpg") ||
-					fileExtension.contains(".jpeg") || fileExtension.contains(".gif")){
-				// Read in image from storage
-				BufferedImage image = ImageIO.read(cachedFile);
-				
-				if(image == null ){
-					System.out.println("Image " + cachedFile.getName() + " was null");
-					response = "HTTP/1.0 404 NOT FOUND \n" +
-							"Proxy-agent: ProxyServer/1.0\n" +
-							"\r\n";
-					proxyToClientBw.write(response);
-					proxyToClientBw.flush();
-				} else {
-					response = "HTTP/1.0 200 OK\n" +
-							"Proxy-agent: ProxyServer/1.0\n" +
-							"\r\n";
-					proxyToClientBw.write(response);
-					proxyToClientBw.flush();
-					ImageIO.write(image, fileExtension.substring(1), clientSocket.getOutputStream());
-				}
-			} 
-			
-			// Standard text based file requested
-			else {
-				BufferedReader cachedFileBufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(cachedFile)));
-
-				response = "HTTP/1.0 200 OK\n" +
-						"Proxy-agent: ProxyServer/1.0\n" +
-						"\r\n";
-				proxyToClientBw.write(response);
-				proxyToClientBw.flush();
-
-				String line;
-				while((line = cachedFileBufferedReader.readLine()) != null){
-					proxyToClientBw.write(line);
-				}
-				proxyToClientBw.flush();
-				
-				// Close resources
-				if(cachedFileBufferedReader != null){
-					cachedFileBufferedReader.close();
-				}	
-			}
-
-
-			// Close Down Resources
-			if(proxyToClientBw != null){
-				proxyToClientBw.close();
-			}
-
-		} catch (IOException e) {
-			System.out.println("Error Sending Cached file to client");
-			e.printStackTrace();
-		}
+                sendNonCachedToClient(urlString);
 	}
-
-
 	/**
 	 * Sends the contents of the file specified by the urlString to the client
 	 * @param urlString URL ofthe file requested
@@ -347,8 +265,7 @@ public class RequestHandler implements Runnable {
 
 			if(caching){
 				// Ensure data written and add to our cached hash maps
-				fileToCacheBW.flush();
-				Proxy.addCachedPage(urlString, fileToCache);
+				fileToCacheBW.flush();	
 			}
 
 			// Close down resources

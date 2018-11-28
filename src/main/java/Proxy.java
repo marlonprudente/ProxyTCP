@@ -66,9 +66,6 @@ public class Proxy implements Runnable{
 	 * @param port Port number to run proxy server from.
 	 */
 	public Proxy(int port) {
-
-		// Load in hash map containing previously cached sites and blocked Sites
-		cache = new HashMap<>();
 		blockedSites = new HashMap<>();
 
 		// Create array list to hold servicing threads
@@ -77,21 +74,7 @@ public class Proxy implements Runnable{
 		// Start dynamic manager on a separate thread.
 		new Thread(this).start();	// Starts overriden run() method at bottom
 
-		try{
-			// Load in cached sites from file
-			File cachedSites = new File("cachedSites.txt");
-			if(!cachedSites.exists()){
-				System.out.println("No cached sites found - creating new file");
-				cachedSites.createNewFile();
-			} else {
-				FileInputStream fileInputStream = new FileInputStream(cachedSites);
-				ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-				cache = (HashMap<String,File>)objectInputStream.readObject();
-				fileInputStream.close();
-				objectInputStream.close();
-			}
-
-			// Load in blocked sites from file
+		try{// Load in blocked sites from file
 			File blockedSitesTxtFile = new File("blockedSites.txt");
 			if(!blockedSitesTxtFile.exists()){
 				System.out.println("No blocked sites found - creating new file");
@@ -116,7 +99,7 @@ public class Proxy implements Runnable{
 			serverSocket = new ServerSocket(port);
 
 			// Set the timeout
-			//serverSocket.setSoTimeout(100000);	// debug
+			serverSocket.setSoTimeout(100000);	// debug
 			System.out.println("Waiting for client on port " + serverSocket.getLocalPort() + "..");
 			running = true;
 		} 
@@ -171,19 +154,11 @@ public class Proxy implements Runnable{
 		System.out.println("\nClosing Server..");
 		running = false;
 		try{
-			FileOutputStream fileOutputStream = new FileOutputStream("cachedSites.txt");
+			FileOutputStream fileOutputStream = new FileOutputStream("blockedSites.txt");
 			ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-
-			objectOutputStream.writeObject(cache);
+			objectOutputStream.writeObject(blockedSites);
 			objectOutputStream.close();
 			fileOutputStream.close();
-			System.out.println("Cached Sites written");
-
-			FileOutputStream fileOutputStream2 = new FileOutputStream("blockedSites.txt");
-			ObjectOutputStream objectOutputStream2 = new ObjectOutputStream(fileOutputStream2);
-			objectOutputStream2.writeObject(blockedSites);
-			objectOutputStream2.close();
-			fileOutputStream2.close();
 			System.out.println("Blocked Site list saved");
 			try{
 				// Close all servicing threads
@@ -213,27 +188,6 @@ public class Proxy implements Runnable{
 			}
 
 		}
-
-
-		/**
-		 * Looks for File in cache
-		 * @param url of requested file 
-		 * @return File if file is cached, null otherwise
-		 */
-		public static File getCachedPage(String url){
-			return cache.get(url);
-		}
-
-
-		/**
-		 * Adds a new page to the cache
-		 * @param urlString URL of webpage to cache 
-		 * @param fileToCache File Object pointing to File put in cache
-		 */
-		public static void addCachedPage(String urlString, File fileToCache){
-			cache.put(urlString, fileToCache);
-		}
-
 		/**
 		 * Check if a URL is blocked by the proxy
 		 * @param url URL to check
@@ -246,10 +200,6 @@ public class Proxy implements Runnable{
 				return false;
 			}
 		}
-
-
-
-
 		/**
 		 * Creates a management interface which can dynamically update the proxy configurations
 		 * 		blocked : Lists currently blocked sites
@@ -271,23 +221,11 @@ public class Proxy implements Runnable{
 						System.out.println(key);
 					}
 					System.out.println();
-				} 
-
-				else if(command.toLowerCase().equals("cached")){
-					System.out.println("\nCurrently Cached Sites");
-					for(String key : cache.keySet()){
-						System.out.println(key);
-					}
-					System.out.println();
 				}
-
-
 				else if(command.equals("close")){
 					running = false;
 					closeServer();
 				}
-
-
 				else {
 					blockedSites.put(command, command);
 					System.out.println("\n" + command + " blocked successfully \n");
