@@ -1,206 +1,212 @@
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
+nov 28, 2018 3:18:38 PM com.marlonprudente.proxytcp.HTTPServer main
 INFORMAÇÕES: Logger name: com.marlonprudente.proxytcp.HTTPServer
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33548
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33549
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33550
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33551
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33552
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33553
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33554
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33555
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33556
-nov 28, 2018 3:10:13 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33557
-nov 28, 2018 3:10:14 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33558
-nov 28, 2018 3:10:14 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33559
-nov 28, 2018 3:10:14 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33546
-nov 28, 2018 3:10:14 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33547
-nov 28, 2018 3:10:15 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33560
-nov 28, 2018 3:10:18 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33561
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33563
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33565
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33567
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33568
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33569
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33570
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33571
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33572
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33573
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33574
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33575
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33576
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33577
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33578
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33579
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33580
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33581
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33582
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33583
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33584
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33585
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33586
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33587
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33588
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33589
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33590
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33591
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33592
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33593
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33594
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33595
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33596
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33597
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33598
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33631
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33632
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33633
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33634
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33635
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33636
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33637
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33638
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33639
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33640
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33641
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33642
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33643
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33648
-nov 28, 2018 3:10:21 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33649
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33657
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33660
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33661
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33662
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33663
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33665
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33666
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33671
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33672
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33673
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33676
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33677
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33678
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33682
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33683
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33684
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33685
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33686
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33687
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33690
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33691
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33692
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33694
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33695
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33697
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33699
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33701
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33702
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33703
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33704
-nov 28, 2018 3:10:22 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/127.0.0.1:33705
-nov 28, 2018 3:10:24 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33706
-nov 28, 2018 3:10:24 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33707
-nov 28, 2018 3:10:24 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33708
-nov 28, 2018 3:10:24 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33709
-nov 28, 2018 3:10:24 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33710
-nov 28, 2018 3:10:27 PM com.marlonprudente.proxytcp.HTTPServer main
-INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33712
+nov 28, 2018 3:18:41 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33735
+nov 28, 2018 3:18:42 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33736
+nov 28, 2018 3:18:42 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33739
+nov 28, 2018 3:18:43 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33740
+nov 28, 2018 3:18:44 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33743
+nov 28, 2018 3:18:44 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33744
+nov 28, 2018 3:18:44 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33745
+nov 28, 2018 3:18:44 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33746
+nov 28, 2018 3:18:46 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33748
+nov 28, 2018 3:18:49 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33750
+nov 28, 2018 3:18:52 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33751
+nov 28, 2018 3:18:55 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33752
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33753
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33754
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33755
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33756
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33758
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33760
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33761
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33762
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33763
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33764
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33765
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33766
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33767
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33768
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33777
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33778
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33779
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33780
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33781
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33782
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33783
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33784
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33785
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33786
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33787
+nov 28, 2018 3:18:56 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33788
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33789
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33790
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33791
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33792
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33793
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33794
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33795
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33796
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33797
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33798
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33799
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33800
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33801
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33820
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33827
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33828
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33829
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33830
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33831
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33832
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33833
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33834
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33835
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33836
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33837
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33842
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33851
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33853
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33854
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33855
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33856
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33857
+nov 28, 2018 3:18:57 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33858
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33859
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33861
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33868
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33869
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33870
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33873
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33875
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33877
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33879
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33880
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33881
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33884
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33886
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33888
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33889
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33890
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33891
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33892
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33893
+nov 28, 2018 3:18:58 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33896
+nov 28, 2018 3:18:59 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33897
+nov 28, 2018 3:18:59 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33898
+nov 28, 2018 3:18:59 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33899
+nov 28, 2018 3:18:59 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33900
+nov 28, 2018 3:18:59 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33901
+nov 28, 2018 3:18:59 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33902
+nov 28, 2018 3:19:01 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33903
+nov 28, 2018 3:19:04 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33904
+nov 28, 2018 3:19:07 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33905
+nov 28, 2018 3:19:07 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33907
+nov 28, 2018 3:19:08 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33908
+nov 28, 2018 3:19:08 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33909
+nov 28, 2018 3:19:10 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33910
+nov 28, 2018 3:19:11 PM com.marlonprudente.proxytcp.HTTPServer main
+INFORMAÇÕES: Nova conexão iniciada -/0:0:0:0:0:0:0:1:33911

@@ -5,22 +5,14 @@
  */
 package com.marlonprudente.proxytcp;
 
-import java.io.BufferedReader;
-import java.io.EOFException;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.net.MalformedURLException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.URL;
-import java.util.Date;
 import java.util.logging.*;
 import java.net.*;
 import java.io.*;
 import java.util.*;
-import org.apache.commons.io.*;
 
 /**
  *
@@ -43,7 +35,7 @@ public class HTTPServer {
             while (true) {
                 Socket clientSocket = listenSocket.accept();
                 log.info("Nova conexão iniciada -" + clientSocket.getRemoteSocketAddress());
-                new Connection(clientSocket);
+                new Connection(clientSocket, log);
             }
         } catch (IOException e) {
             System.out.println("Listen socket:" + e.getMessage());
@@ -52,7 +44,6 @@ public class HTTPServer {
 }
 
 class Connection extends Thread {
-
     /**
      * Client input stream for reading request
      */
@@ -106,20 +97,15 @@ class Connection extends Thread {
      * websites allowed to connect
      */
     protected List<String> allowed = new ArrayList();
-
-    //private static final Logger log = Logger.getLogger(HTTPServer.class.getName());
-    public Connection(Socket aClientSocket) {
+    
+    public Connection(Socket aClientSocket, Logger log) {
         clientSocket = aClientSocket;
         try {
-//            Handler fileHandler = new FileHandler("./logs/logThread.log");
-//            fileHandler.setFormatter(new SimpleFormatter());
-//            fileHandler.setLevel(Level.ALL);
-//            log.addHandler(fileHandler);
             allowed.add("portal.utfpr.edu.br");
             allowed.add("utfpr.edu.br");
             header = new HashMap<String, String>();
         } catch (Exception e) {
-            //log.severe("Erro ao Criar Connection: " + e);
+           log.severe("Erro: " + e);
         }
         this.start();
     }
@@ -262,7 +248,6 @@ class Connection extends Thread {
                     System.out.println(command);
                 }
             }
-
             remoteOutputStream.write(endOfLine.getBytes());
             remoteOutputStream.flush();
             // send client request data if its a POST request
@@ -291,7 +276,6 @@ class Connection extends Thread {
      */
     @SuppressWarnings("deprecation")
     private void remoteToClient() {
-
         try {
 
             // If socket is closed, return
@@ -300,22 +284,8 @@ class Connection extends Thread {
             }
 
             String line;
-//            String blockedMensagemHTML = "<html>\n"
-//                    + "  <head>\n"
-//                    + "    <title>Exemplo de resposta HTTP </title>\n"
-//                    + "  </head>\n"
-//                    + "    <body>\n"
-//                    + "    Acesso não autorizado!\n"
-//                    + "    </body>\n"
-//                    + "  </html>";
             DataInputStream remoteOutHeader = new DataInputStream(remoteSocket.getInputStream());
-//            boolean blocked = false;
-//            for (String sitePermitido : allowed) {
-//                if (!header.get("host").contains(sitePermitido)) {
-//                    blocked = true;
-//                }
-//            }
-            // get remote response header
+            
             while ((line = remoteOutHeader.readLine()) != null) {
                 // check for end of header blank line
                 if (line.trim().length() == 0) {
@@ -337,22 +307,6 @@ class Connection extends Thread {
                 clientOutputStream.write(line.getBytes());
                 clientOutputStream.write(endOfLine.getBytes());
             }
-//            if (blocked) {
-//                // check for end of header blank line
-//                if (line.trim().length() == 0) {
-//                    return;
-//                }
-//
-//                //colocar condicao de bloqueio aqui
-//                clientOutputStream.write("HTTP/1.1 200 OK".getBytes());
-//                clientOutputStream.write("Server: Microsoft-IIS/4.0".getBytes());
-//                clientOutputStream.write("Date: Mon, 3 Jan 2016 17:13:34 GMT".getBytes());
-//                clientOutputStream.write("Content-Type: text/html".getBytes());
-//                clientOutputStream.write("Last-Modified: Mon, 11 Jan 2016 17:24:42 GMT".getBytes());
-//                clientOutputStream.write("Content-Length: 112".getBytes());
-//                clientOutputStream.write(blockedMensagemHTML.getBytes());
-//                clientOutputStream.write(endOfLine.getBytes());
-//            }
             // complete remote header response
             clientOutputStream.write(endOfLine.getBytes());
             clientOutputStream.flush();
@@ -481,7 +435,7 @@ class Connection extends Thread {
         DataOutputStream dos = new DataOutputStream(clientSocket.getOutputStream());
         String HTML_START
                 = "<html>"
-                + "<title>HTTP Server in java</title>"
+                + "<title>Proxy Server in java</title>"
                 + "<body>";
 
         String HTML_END
@@ -511,9 +465,7 @@ class Connection extends Thread {
         dos.writeBytes(contentLengthLine);
         dos.writeBytes("Connection: close\r\n");
         dos.writeBytes("\r\n");
-
         dos.writeBytes(responseString);
-
         dos.close();
     }
 
